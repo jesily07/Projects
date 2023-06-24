@@ -2,8 +2,8 @@
 
 This repository contain the learnings from various Data science topics covering:
 
-- ML algorithm : Supervised learning, Unsupervised learning. 
-- Build a interactive Food ordering Chatbot with DialogFlow CX.
+- ML algorithm : Supervised learning, Unsupervised learning
 - Sentimental analysis using NLP techniques
-
+- Recommendation system project
+    
 Please check the individual folders to access the projects.
