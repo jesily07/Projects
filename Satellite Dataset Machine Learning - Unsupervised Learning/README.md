@@ -1,6 +1,6 @@
 # Satellite Dataset Machine Learning
 
-This dataset contains readings from a satellite with the most noisy data values and emphasis is given to practice data cleaning and train model with unsupervised ML algorithm.
+This dataset contain readings from a satellite with the most noisy data values and emphasis is given to practice data cleaning and train model with unsupervised ML algorithm.
 
 ## Libraries
 
