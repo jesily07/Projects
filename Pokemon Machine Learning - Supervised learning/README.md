@@ -12,7 +12,7 @@ Dataset consists of Player's acheievements and performance in different categori
 - seaborn
 - scikit-learn
 
-## Algorithms
+## ML Algorithms
 
 - Random Forest
 
