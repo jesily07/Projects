@@ -9,3 +9,8 @@ In this project, we have a set of attributes that describe the factors influenci
 - seaborn
 - matplotlib
 - sci-kit learn
+
+## ML Algorithm
+
+- Random forest
+- XGboost
