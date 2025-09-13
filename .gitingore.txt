@@ -37,7 +37,7 @@ venv/
 *.log
 *.tmp
 
-# Large data files (keep repo lightweight)
+# Large data files (prevent GitHub 100MB issue)
 *.csv
 *.tsv
 *.xlsx
@@ -47,6 +47,11 @@ venv/
 *.parquet
 *.feather
 
+# Datasets (ignore dataset folders if created)
+datasets/
+data/
+input/
+
 # ML/DL models & weights
 *.h5
 *.hdf5
@@ -54,6 +59,10 @@ venv/
 *.pt
 *.pkl
 *.joblib
+
+# Checkpoints
+checkpoints/
+*.ckpt
 
 # Archives
 *.zip
