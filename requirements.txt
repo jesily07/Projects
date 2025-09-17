@@ -1,0 +1,21 @@
+# Core scientific stack
+numpy<1.26
+pandas==2.1.4
+scipy>=1.10,<1.14
+
+# ML / DL frameworks (pick one)
+tensorflow==2.13.0
+# torch>=2.1,<2.3  # Uncomment if using PyTorch models
+
+# Model helpers
+h5py>=3.8
+protobuf<4.0
+huggingface_hub>=0.23
+gdown>=4.7
+
+# Image processing
+opencv-python>=4.8
+Pillow>=9.5
+
+# Streamlit
+streamlit==1.37.0
