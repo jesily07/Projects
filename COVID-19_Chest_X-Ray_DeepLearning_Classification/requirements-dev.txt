@@ -1,9 +1,0 @@
-# Base (reuse cloud safe version)
--r requirements.txt
-
-# Extra dev tools
-matplotlib>=3.7,<3.10
-seaborn>=0.12,<0.14
-jupyterlab
-notebook
-ipykernel
