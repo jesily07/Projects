@@ -1,0 +1,76 @@
+# Ignore everything by default
+*
+
+# Allow all project subfolders
+!*/
+
+# ---------------------------
+# Allowed project files
+# ---------------------------
+!*.py
+!*.ipynb
+!requirements.txt
+!runtime.txt
+!README.md
+!.streamlit/
+
+# ---------------------------
+# Common ignore rules
+# ---------------------------
+
+# Python cache & build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+*.env
+
+# Logs & temp
+*.log
+*.tmp
+
+# Large data files (prevent GitHub 100MB issue)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.parquet
+*.feather
+
+# Datasets (ignore dataset folders if created)
+datasets/
+data/
+input/
+
+# ML/DL models & weights
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.pkl
+*.joblib
+
+# Checkpoints
+checkpoints/
+*.ckpt
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# OS files
+.DS_Store
+Thumbs.db
