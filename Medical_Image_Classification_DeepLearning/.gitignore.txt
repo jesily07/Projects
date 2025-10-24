@@ -1,0 +1,86 @@
+# ============================================
+# PROJECT CODE & NOTEBOOKS (keep)
+# ============================================
+!*.py
+!*.ipynb
+!README.md
+!requirements*.txt
+!runtime.txt
+!.streamlit/
+!*/  # keep subfolders
+
+# ============================================
+# PYTHON CACHE & BUILD FILES
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# ============================================
+# VIRTUAL ENVIRONMENTS
+# ============================================
+.env/
+.venv/
+env/
+venv/
+*.env
+
+# ============================================
+# LARGE DATASETS & INPUT FILES
+# ============================================
+data/
+datasets/
+input/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.parquet
+*.feather
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ============================================
+# MODEL FILES & CHECKPOINTS
+# ============================================
+models/
+checkpoints/
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# ============================================
+# LOGS & TEMP FILES
+# ============================================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ============================================
+# OS & IDE FILES
+# ============================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__MACOSX/
+
+# ============================================
+# MISCELLANEOUS
+# ============================================
+*.lock
+*.cache/
+*.out
