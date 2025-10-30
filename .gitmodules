@@ -1,0 +1,3 @@
+[submodule "Medical_Image_Classification_DL"]
+	path = Medical_Image_Classification_DL
+	url = https://github.com/jesily07/Medical_Image_Classification_DeepLearning.git
